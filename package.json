@@ -1,0 +1,16 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "browserify app.js -o bundle.js",
+    "watch": "watchify app.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.5.2",
+    "watchify": "^3.11.1"
+  }
+}
